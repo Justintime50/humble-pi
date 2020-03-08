@@ -6,7 +6,7 @@ All of my Raspberry Pi projects.
 
 ### Stoplight
 
-Turn on red, yellow, and green LEDs like a stoplight, iterating multiple times. Uses pins `4`, `17`, and `27`.
+Turn on red, yellow, and green LEDs like a stoplight, iterating multiple times. Uses pins `4 = red`, `17 = yellow`, and `27 = green`.
 
 ```bash
 sudo python stoplight.py
