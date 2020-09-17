@@ -1,0 +1,13 @@
+language: python
+
+python:
+    - '3.6'
+    - '3.7'
+    - '3.8'
+
+install: pip install -e ."[dev]"
+
+script: 
+    - flake8 humble_pi/*.py
+    # - flake8 test/*.py
+    # - pytest --cov=humble_pi
